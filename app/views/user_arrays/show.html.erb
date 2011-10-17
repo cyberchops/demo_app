@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @user_array.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @user_array.email %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_array_path(@user_array) %> |
+<%= link_to 'Back', user_arrays_path %>
